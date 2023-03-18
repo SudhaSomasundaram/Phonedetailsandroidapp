@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "467498080492",
+    "project_id": "phonedetailsandroidapp",
+    "storage_bucket": "phonedetailsandroidapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467498080492:android:ee3f6d4590be5dc5bf6dc9",
+        "android_client_info": {
+          "package_name": "com.example.phonedetailsandroidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467498080492-o274db2889jag0trc4uk25nt3ovgjcft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV1gBRRjTe_Z9JjykCylE49CLVIzXwn14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467498080492-o274db2889jag0trc4uk25nt3ovgjcft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

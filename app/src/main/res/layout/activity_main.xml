@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@color/purple_200"
+tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/phdet"
+    android:layout_marginTop="75dp"
+    android:layout_marginLeft="55dp"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:singleLine = "false"
+    android:textSize="20dp"
+    android:ems="10"
+    android:hint="Phone Details"
+    android:editable="false"
+    android:textColor="@color/purple_500"
+    android:textStyle="normal|bold"
+
+    />
+
+<Button
+    android:id="@+id/btndb"
+    android:layout_width="150dp"
+    android:layout_height="100dp"
+    android:hint="Save Data"
+    android:textAlignment="center"
+    android:ems="10"
+    android:layout_marginTop="350dp"
+    android:layout_marginLeft="205dp"
+    android:backgroundTint="@color/white"
+    android:textColor="@color/black"
+    android:textStyle="normal|bold"
+
+    />
+
+
+<Button
+    android:id="@+id/btnclick"
+    android:backgroundTint="@color/white"
+    android:textColor="@color/black"
+    android:textAlignment="center"
+    android:layout_marginTop="350dp"
+    android:layout_marginLeft="55dp"
+    android:layout_width="125dp"
+    android:layout_height="100dp"
+    android:ems="10"
+    android:hint="Click Here for Phone Details"
+    android:textStyle="normal|bold"
+    />
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginLeft="75dp"
+    android:layout_marginTop="500dp"
+    android:layout_alignParentTop="true"
+    >
+</ImageView>
+
+<Button
+    android:id="@+id/btncapture"
+    android:backgroundTint="@color/white"
+    android:textColor="@color/black"
+    android:textAlignment="center"
+    android:layout_marginTop="500dp"
+    android:layout_marginLeft="205dp"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:ems="10"
+    android:hint="Capture"
+    android:textStyle="normal|bold"
+    />
+
+</RelativeLayout>
